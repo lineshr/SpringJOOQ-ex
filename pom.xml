@@ -46,6 +46,10 @@
             **/ch/qiminfo/librairy/LibrairyApplication.java
         </code.coverage.exclusions>
         <aggregate.report.dir>librairy-test/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
+   
+  <sonar.organization>lineshr</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     </properties>
 
     <dependencyManagement>
