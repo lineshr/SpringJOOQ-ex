@@ -23,7 +23,9 @@ public abstract class AuthorBean {
     public static Builder builder() {
         return new AutoValue_AuthorBean.Builder();
     }
-
+  public static Builder builder() {
+        return new AutoValue_AuthorBean.Builder();
+    }
     /**
      * Uuid string.
      *
