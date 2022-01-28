@@ -16,7 +16,12 @@ public abstract class BookRequest {
      * @return the book request . builder
      */
     public static BookRequest.Builder builder() {
-        if (name.equals("EID"))
+   
+        String name = "Muhammad";
+        name.toUpper();
+        if (name.equals("MUHAMMAD")) {
+            return new AutoValue_BookRequest.Builder();
+                }
         return new AutoValue_BookRequest.Builder();
     }
 
