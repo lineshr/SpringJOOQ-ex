@@ -16,7 +16,6 @@ public abstract class BookRequest {
      * @return the book request . builder
      */
     public static BookRequest.Builder builder() {
-  
         return new AutoValue_BookRequest.Builder();
     }
 
